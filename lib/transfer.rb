@@ -16,6 +16,7 @@ class Transfer
  
  def execute_transaction
    @sender.balance > @amount 
+   @sender.balance -= @amount 
  end 
  
  def reverse_transfer
