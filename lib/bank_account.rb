@@ -19,11 +19,8 @@ def display_balance
 end 
 
 def valid?
- @broke.balance = 0
- @closed.status = "closed"
  @status == "open" && @balance > 0
- binding.pry
-  end
+end
 
 def close_account
   @status = "closed"
