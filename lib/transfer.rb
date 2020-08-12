@@ -23,7 +23,7 @@ class Transfer
     self.reject_transfer
 end
 end
-end 
+ 
  
  def reverse_transfer
  end 
